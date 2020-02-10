@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".howtomakelayout5"
+    >
+
+   <ImageView
+       android:id="@+id/imageview"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@drawable/ic_launcher_foreground"
+       />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--제일 자유도가 높고 처리속도가 빠른
+view 표시 영역 기준으로 왼쪽끝이 start 오른쪽끝이 end
+상단끝이 top, 하단끝은 bottom
+상위 view를 parent 라고 한다.
+
+
+
+
+-->
