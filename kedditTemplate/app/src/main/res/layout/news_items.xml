@@ -7,7 +7,7 @@
 
 
     <ImageView
-        android:id="@+id/img_pumb_subnail"
+        android:id="@+id/img_thumbnail"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:src="@mipmap/ic_launcher"
@@ -16,7 +16,7 @@
 
     <TextView
         android:id="@+id/description"
-        android:layout_toRightOf="@id/img_pumb_subnail"
+        android:layout_toRightOf="@id/img_thumbnail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="안녕하세요"/>
@@ -24,7 +24,7 @@
     <TextView
         android:id="@+id/author"
         android:layout_below="@id/description"
-        android:layout_toRightOf="@id/img_pumb_subnail"
+        android:layout_toRightOf="@id/img_thumbnail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="10sp"
@@ -33,7 +33,7 @@
     <TextView
     android:id="@+id/time"
     android:layout_below="@id/author"
-    android:layout_toRightOf="@id/img_pumb_subnail"
+    android:layout_toRightOf="@id/img_thumbnail"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:textSize="10sp"
